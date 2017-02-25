@@ -1,0 +1,66 @@
+/**
+ * css样式表
+ * 
+ */
+/*头部样式开始*/
+html,body{min-width: 1200px;}
+.herd{min-width: 1200px;}
+.head_top{height:35px;width:100%;background-color:#f8f8f8;border-bottom: 1px solid #dddddd;min-width: 1200px;}
+.head_top_con{width:1200px;margin:0 auto;height: 35px;}
+.head_top_con a{color: #000;}
+.head_top_con_l{line-height: 35px;font-size: 16px;width: 50%;display: inline-block;}
+.head_top_con_r{text-align: right;line-height: 35px;font-size: 16px;width: 50%;}
+.head_top_con .head_top_con_r a{margin-left: 25px;}
+.head_logo{height:75px;width:100%;background-color:#fff;padding-top:25px;min-width: 1200px;}
+.head_logo_con{width: 1200px;height:100%;margin: 0 auto;}
+.head_logo_con_m{height:50px;margin-left: 25px;border-left: solid 1px #dddddd;padding-left: 15px;}
+.head_logo_con_m1{font-size: 18px;color: #333;}
+.head_logo_con_m2{font-size: 14px;color: #999;margin-top:5px;}
+.head_logo_con_r1{text-align: right;font-size: 18px;color: #fe0000;}
+.head_logo_con_r2{width: 265px;height: 37px;}
+.head_nav{width: 100%;height: 40px;background: #333;}
+.head_nav_con{width: 1200px;margin: 0 auto;min-width: 1200px;height: 40px;}
+.head_nav_con li{float: left;width:200px;line-height: 40px;text-align:center;z-index: 100;-webkit-transition:1s;transition:1s;}
+.head_nav_con li:hover{background: #17843d;}
+.head_nav_con li a{color: #fff;display: inline-block;width: 100%;height: 100%;}
+.head_nav_hover{background: #17843d;}
+/*头部样式结束*/
+/*banner样式开始*/
+.banner{width:100%;height:360px;background: #b1dcef;position:relative;}
+.banner_main{width: 1200px;height: 360px;margin: 0 auto;position: relative;min-width: 1200px;overflow: hidden;}
+.banner_main li{width: 1200px;height: 360px;position: absolute;left: 0;bottom: 0;opacity:0;transition:0.5s;}
+.banner_main li.banner_zIndex{z-index:10;opacity:1;}
+
+.banner_apply{width: 280px;height: 330px;border-radius: 3px;position: absolute;top: 13px;right: 15px;background: red;}
+.banner_apply_title{width: 100%;height: 40px;background: #18743d;font-size: 16px;text-align: center;line-height: 40px;color: #fff;border-radius: 3px 3px 0 0;}
+/*banner样式结束*/
+/*遮罩开始*/
+.shade{width: 100vw;height: 130px;position: fixed;opacity: 0.5;background: #ccc;z-index: 3;}
+.close{width: 60px;height: 30px;color: #fff;background-color: #000000；;float: right;line-height: 30px;text-align:center}
+/*z遮罩结束*/
+/*content样式开始*/
+
+.content{width: 100%;background: #f8f8f8;display: inline-block;min-width: 1200px;}
+.content_main{width: 1200px;margin: 0 auto;background: #fff;min-width: 1200px;}
+/*友情链接*/
+/*友情链接*/
+.content_friendshipLink{width: 100%;height: 130px;}
+.content_friendshipLink_list{width: 112px;height: 100%;margin-left:10px;text-align: center;line-height: 130px;font-size: 18px;color: #595959;float: left;position: relative;}
+.content_friendshipLink_list img{ position: absolute;left: 0;top: 50%;margin-top: -34px;}
+/*脚部样式开始*/
+.foot{width: 100%;background: #333;min-width: 1200px;display: inline-block;}
+.foot_one{width:1200px;height: 225px;background: #333;min-width: 1200px;margin: 0 auto;}
+.foot_one a{font-size: 16px;color: #aeaeae;display: inline-block;}
+.foot_one_con{width: 1180px;height: 165px;margin: 0 auto;padding-top: 30px;padding-bottom: 30px;padding-left: 20px;}
+.foot_height_line{width:1px;height:116px;background: #4a4a4a;}
+.foot_one_list_l{width: 82px;float:left;margin-left: 80px;text-align: right;line-height: 30px;margin-right: 20px;}
+.foot_one_list_m{width: 424px;height:100%;float: left;background: red;background: url(../images/foot_one.png) center no-repeat;}
+.foot_one_list_r{width: 82px;float:left;margin-right: 80px;text-align: left;line-height: 30px;margin-left: 20px;}
+.foot_two{width: 100%;height: 130px;background: #4c4c4c;min-width: 1200px;}
+.foot_two_con{width: 1200px;height: 130px;margin:0 auto}
+.foot_two_l{width: 380px;height:130px;float:left;}
+.foot_two_m{width: 557px;height:130px;float:left;}
+.foot_two_m_con{width: 337px;height: 127px;margin: 0 auto;margin-top: 3px;}
+.foot_two_m_drop{width: 138px;height: 38px;border: 1px solid #ddd;background: transparent;font-size: 16px;color: #fff;border-radius: 2px;margin-top: 15px;margin-left: 20px;}
+.foot_two_r{width: 263px;height:130px;float:left;background: #87c556;font-size: 30px;text-align: center;line-height: 130px;}
+.foot_two_r a{color:#fff;display: inline-block;width: 100%;height: 100%;}

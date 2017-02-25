@@ -1,0 +1,337 @@
+/**
+ * css样式表
+ * 
+ */
+/*专题页样式*/
+/*计划切换*/
+.sp_plan_title{width: 100%;height: 65px;background: #f8f8f8;}
+.sp_plan_title_con{width: 1200px;height: 65px;min-width: 1200px;margin:0 auto;font-size: 24px;text-align: center;line-height: 65px;}
+.sp_plan_title_l,.sp_plan_title_r{width: 600px;cursor:pointer;}
+.sp_plan_title_hover{background: #18743d;color: #fff;}
+/*服务简介*/
+.sp_service_wrap{width: 100%;background: #fff;}
+.sp_service_main{width: 1200px;min-width: 1200px;margin: 0 auto;}
+.sp_title{width: 1200px;height: 110px;font-size: 40px;text-align: center;line-height: 110px;position: relative;margin-bottom:20px;}
+.sp_title_line_l{width: 490px;height: 2px;background: #e9e9e9;position: absolute;left: 0;top: 56px;}
+.sp_title_line_r{width: 490px;height: 2px;background: #e9e9e9;position: absolute;right: 0;top: 56px;}
+.sp_service_con{width: 1200px;height: 340px;}
+.sp_service_list{width: 265px; height: 340px;position: relative;margin-right: 46px;}
+.sp_service_list img{width: 265px;height: 175px;}
+.sp_service_list_title{width: 147px;height: 30px;border-radius: 15px;position: absolute;left: 53px;top: 161px;font-size: 16px;text-align: center;line-height: 30px;z-index: 5;background: #fff;}
+.sp_service_list_con{width:265px;height: 165px;position: absolute;left: 0;bottom: 0;background: #18743d;color: #fff;font-size: 14px;}
+.sp_service_list_con p{width: 230px;height: 100px;position: absolute;left: 15px;top: 45px;overflow: hidden;font-size: 16px;line-height: 32px;}
+.sp_service_list_con img{width: 24px;height: 13px;position: absolute;left: 120px;top: 165px;width: 24px;height: 13px;}
+.sp_service_list_margin{margin-right: 0px;}
+.sp_service_con_b{width: 1200px;height: 100px;position: relative;}
+.sp_service_line{width: 1200px;height: 2px;background: #18743d;position: absolute;left: 0;top:49px;}
+.sp_service_circular{width: 10px;height: 10px;border-radius: 50%;background: #18743d;position: absolute;left: 128px;top:210px;}
+/*课程特色*/
+.sp_feature_wrap{width: 100%;background: #efefef;}
+.sp_feature_main{width: 1200px;min-width: 1200px;margin: 0 auto;height: 570px;}
+.sp_feature_con{margin-bottom:35px;width: 1200px;height: 100px;text-align: center;color: #666;font-size: 18px;line-height: 32px;}
+.sp_feature_list_box{width: 1070px;height: 250px;margin: 0 auto;}
+.sp_feature_list{width: 450px;height: 60px;position: relative;margin-right: 170px;margin-bottom: 30px;float: left;}
+.sp_feature_list_l{width: 100px;height: 60px;background: #54936d;z-index: 10;text-align: center;line-height: 60px;font-size: 18px;color: #fff;font-weight: bold;position: absolute;}
+.sp_feature_list_r{width: 350px;height: 60px;background: #fff;z-index: 10;text-align: center;line-height: 60px;font-size: 18px;position: absolute;right: 0;top: 0;}
+.sp_feature_list_ll{width: 60px;height: 60px;border-radius: 50%;position: absolute;left: -30px;top: 0;background: #54936d;}
+.sp_feature_list_rr{width: 60px;height: 60px;border-radius: 50%;position: absolute;right: -30px;top: 0;background: #fff; }
+.sp_feature_margin{margin-right: 0;}
+.sp_feature_con2{height: 90px;}
+/*白石中学直录协议学院*/
+.sp_university_wrap{width: 100%;background:url(../images/special_bg_01.png) center no-repeat;}
+.sp_university_main{width: 1200px;min-width: 1200px;margin: 0 auto;}
+.sp_university_title_box{margin-bottom: 35px;width: 1200px;height: 135px;text-align: center;line-height: 135px;font-size: 30px;position: relative;}
+.sp_university_name{width: 1200px;height:20px;position: absolute;left: 0;top: 95px;color: #18743d; text-align: center;font-size: 18px;line-height: 20px;}
+.sp_university_name span{margin-right: 15px;}
+.sp_university_con{padding-bottom: 30px;height: 595px;}
+.sp_university_list{position: relative;font-size: 16px;text-align: center;width: 260px;height: 595px;background: #FDF6EC;line-height: 32px;float: left;margin-right:53px;}
+.sp_university_list img{width: 260px;height: 183px;position: absolute;left: 0;top: 0;z-index: 10;}
+.sp_university_list_name{width: 260px;height: 100px;position: absolute;left: 0;top: 183px;font-weight: bold;}
+.sp_university_list_con{width: 228px;height: 280px;position: absolute;left: 15px;bottom: 20px;font-size:16px;line-height:25px;color:#333;text-align:left;}
+.sp_university_list_margin{margin-right: 0;}
+.sp_ad_01{width: 100%;height: 198px;background:url(../images/zh04.jpg) center no-repeat; }
+/*微留学*/
+.sp_study_wrap{width: 100%;background: #fff;}
+.sp_study_main{width: 1200px;min-width: 1200px;margin: 0 auto;font-size: 18px;}
+.sp_study_con{width: 1200px;}
+.sp_study_con h3{height: 100px;text-align: center;}
+.sp_study_list_con{width: 160px;height: 160px;border-radius: 50%;background: #fdf6ec;position: relative;float: left;margin-right: 80px;margin-bottom: 120px;}
+.sp_study_list_con_img1{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_01.png) center no-repeat; }
+.sp_study_list_con_img2{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_02.png) center no-repeat; }
+.sp_study_list_con_img3{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_03.png) center no-repeat; }
+.sp_study_list_con_img4{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_04.png) center no-repeat; }
+.sp_study_list_con_img5{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_05.png) center no-repeat; }
+.sp_study_list_con_img6{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_06.png) center no-repeat; }
+.sp_study_list_con_img7{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_07.png) center no-repeat; }
+.sp_study_list_con_img8{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_08.png) center no-repeat; }
+.sp_study_list_con_img9{position: absolute;left: 0;top: 0;width: 160px;height: 160px;border-radius: 50%;background:url(../images/special_study_09.png) center no-repeat; }
+.sp_study_list_con p{display:block;font-size:16px;line-height:25px;color:transparent;width: 150px;height: 160px;padding-left:5px;padding-right:5px;border-radius:80px;background:rgba(0,0,0,0);
+	position: absolute;left: 0;top: 0;overflow: hidden;text-align: center;-webkit-transition:1s;transition:1s;overflow:hidden;z-index:1000;}
+.sp_study_list_con p:hover{display:block;color:#fff;background:rgba(0,0,0,0.6);height:340px;}
+.sp_study_list_con_title{width: 260px;height: 50px;position: absolute;top:180px;left: -50px;text-align: center;color: #1a8982;}
+.sp_study_margin_l1{margin-left: 40px;}
+.sp_study_margin_l2{margin-left: 165px;}
+.sp_study_margin_r{margin-right: 0;}
+.sp_ad_02{width: 100%;height: 198px;background:url(../images/special_ad_01.png) center no-repeat;}
+/*美国白石中学*/
+.sp_usa_wrap{width: 100%;background: #fff;line-height: 32px;}
+.sp_usa_main{width: 1200px;min-width: 1200px;margin: 0 auto;}
+.sp_usa_main1{height: 340px;width: 1200px;}
+.sp_usa_img1{height: 340px;width: 450px;float: left;background:url(../images/special_135_82.png) center no-repeat;}
+.sp_usa_con1{width: 635px;height: 340px;float: left;}
+.sp_usa_con1 h3{height: 50px;color: #18743d;font-size: 34px;width: 750px;font-weight: bold;}
+.sp_usa_con1 h4{height: 50px;width: 750px;}
+.sp_usa_con1 p span{font-weight: bold;}
+.sp_usa_main2{width: 1200px;height: 600px;}
+.sp_usa_main2 li{width: 300px; height: 300px;float: left;text-align: center;color: #fff;font-size: 21px;position:relative;}
+.sp_usa_main2 li img{width: 300px;height: 300px;}
+.sp_usa_main2 li p{position: absolute;left: 0;top: 50%;width: 300px;margin-top: -25px;}
+.sp_usa_main2 .sp_usa_triangle img{width: 13px;height: 23px;}
+.sp_usa_46C8A8{background: #46C8A8;}
+.sp_usa_46C8A8:after{content:"";position:absolute;background:url(../images/special_triangle_02.png) no-repeat;top:143px;right:-11px;width:13px;height:23px;}
+.sp_usa_E9594C{background: #E9594C;}
+.sp_usa_E9594C:after{content:"";position:absolute;background:url(../images/special_triangle_03.png) no-repeat;top:143px;right:-11px;width:13px;height:23px;z-index:10;}
+.sp_usa_39BAE9{background: #39BAE9;}
+.sp_usa_39BAE9:after{content:"";position:absolute;background:url(../images/zh07.png) no-repeat;top:143px;left:-11px;width:13px;height:23px;z-index:10;}
+.sp_usa_5866E6{background: #5866E6;}
+.sp_usa_5866E6:after{content:"";position:absolute;background:url(../images/zh08.png) no-repeat;top:143px;left:-11px;width:13px;height:23px;z-index:10;}
+.sp_usa_triangle{position: absolute;left: 300px;top: 140px;z-index: 10px;}
+.sp_usa_main2_bg{position: absolute;left: 0;top: 0;opacity: 0.6;background: #000;width: 300px;height: 300px;}
+.sp_z-index{z-index: 10;}
+/*教学环境*/
+.sp_envi_wrape{width: 100%;background:#fff; }
+.sp_envi_main{width: 1200px;min-width: 1200px;margin: 0 auto;}
+.sp_envi_title{width: 1200px;height: 160px;background:url(../images/special_bg_01.png) center no-repeat;text-align:center;line-height: 160px;font-size: 45px;color: #18743d; }
+.sp_envi_con{height: 840px;width: 1200px;position: relative;margin-bottom:30px;}
+.sp_envi_list1{width: 210px;height: 200px;position: absolute;left: 0;top: 0;}
+.sp_envi_list1 img{width: 210px;height: 200px;}
+.sp_envi_list2{width: 210px;height: 200px;position: absolute;left: 220px;top: 0;}
+.sp_envi_list2 img{width: 210px;height: 200px;}
+.sp_envi_list3{width: 430px;height: 415px;position: absolute;left: 440px;top: 0;}
+.sp_envi_list3 img{width: 430px;height: 415px;}
+.sp_envi_list4{width:315px;height: 415px;position: absolute;right: 0;top: 0;}
+.sp_envi_list4 img{width: 315px;height: 415px;}
+.sp_envi_list5{width:430px;height: 415px;position: absolute;left: 0px;top:210px;}
+.sp_envi_list5 img{width:430px;height: 415px;}
+.sp_envi_list6{width: 430px;height:200px;position: absolute;left: 440px;top:425px;}
+.sp_envi_list6 img{width: 430px;height: 200px;}
+.sp_envi_list7{width: 315px;height:415px;position: absolute;right: 0;bottom: 0;}
+.sp_envi_list7 img{width: 315px;height: 415px;}
+.sp_envi_list8{width: 430px;height: 200px;position: absolute;left: 0px;bottom: 0;}
+.sp_envi_list8 img{width: 430px;height: 200px;}
+.sp_envi_list9{width: 210px;height: 200px;position: absolute;left: 440px;bottom: 0;}
+.sp_envi_list9 img{width: 210px;height: 200px;}
+.sp_envi_list10{width: 210px;height: 200px;position: absolute;left:660px;bottom: 0;}
+.sp_envi_list10 img{width: 210px;height: 200px;}
+
+
+
+.sp_ad_03{width: 100%;height: 198px;background:url(../images/special_ad_03.png) center no-repeat; }
+.sp_ad_04{width: 100%;height: 198px;background:url(../images/zh13.jpg) center no-repeat; }
+.sp_ad_05{width: 100%;height: 198px;background:url(../images/zh14.jpg) center no-repeat; }
+/*针对人群*/
+.sp_aim_wrap{width: 100%;background: #fff;}
+.sp_aim_main{width: 1200px;min-width: 1200px;margin: 0 auto;font-size: 18px;text-align: center;}
+.sp_aim_con{margin-bottom: 20px;height: 360px;}
+.sp_aim_con_list{width: 285px;height: 360px;float: left;margin-right: 20px;position: relative;color: #fff;}
+.sp_aim_con_list img{width: 285px;height: 255px;}
+.sp_aim_con_list_con{width: 285px;height: 105px;position: absolute;left: 0;bottom: 0;background: #18743d;z-index: 10;}
+.sp_aim_con_list_title{width: 70px;height: 70px;border-radius: 50%;position: absolute;left: 107px;bottom: 70px;background: #18743d;line-height:45px;font-size:25px;}
+.sp_aim_con_list_con p{width: 220px;height: 80px;position: absolute;left: 33px;top: 25px;overflow: hidden;}
+.sp_aim_margin{margin-right: 0;}
+/*为什么选择森润*/
+.sp_why_wrap{width: 100%;background:url(../images/special_bb_02.png) center no-repeat; }
+.sp_why_main{width: 1200px;min-width: 1200px;margin: 0 auto;height: 580px;position:relative;}
+.sp_why_title{width: 1200px;height: 80px;text-align: center;color: #18743d;font-size: 32px;line-height: 160px;}
+.sp_why_con{width: 1200px;height: 500px;background: url(../images/special_ba_03.png) center no-repeat; }
+/*留学名师团*/
+.sp_teacher_wrap{width: 100%;background: #fff;}
+.sp_teacher_main{width: 1200px;min-width: 1200px;margin: 0 auto;position:relative;}
+.sp_teacher_con{height: 325px;position: relative;}
+.sp_teacher_box{width: 1070px;height: 335px;overflow: hidden;margin-left: 65px;}
+.sp_teacher_list{width: 219px;height: 309px;float: left;padding: 8px;box-shadow:5px  5px 5px #ccc;position: relative;margin-right: 40px;}
+.sp_teacher_list_con h3{font-weight: bold;color: #18743d;font-size: 14px;margin-bottom: 5px;}
+.sp_teacher_list_con img{width: 218px;height: 230px;}
+.sp_teacher_list_con{position: absolute;left: 8px;bottom: 0;height: 200px;height: 75px;font-size: 16px;color: #18743d;}
+.sp_teacher_left{position:absolute;top:265px;left:35px;cursor:pointer;}
+.sp_teacher_right{position:absolute;top:265px;right:35px;cursor:pointer;}
+
+/*测评结果*/
+.sp_test_wrap{width: 100%;background:url(../images/zh15.png) center no-repeat;height:330px;}
+.sp_test_main{width: 1200px;min-width: 1200px;margin: 0 auto;}
+.sp_test_con1{height: 100px;background:rgba(0,0,0,0.3);position:absolute;width:1200px;margin-top:65px;z-index:10;}
+.sp_test_con2{height: 135px;font-size: 18px;position: relative;padding-top:200px;}
+.sp_test_con2 p{height: 50px;width:1200px;text-align: center;}
+.sp_test_con2 p span{color: red;font-size: 28px;}
+.sp_test_btn2{width: 170px;height: 42px;line-height: 41px;text-align: center;color: #fff;background: #18743d;position: absolute;left: 510px;bottom:40px;border-radius: 3px;cursor: pointer;}
+/*底部*/
+.sp_foot_wrap{width: 100%;background: #333;color: #999;font-size: 14px;text-align: center;}
+.sp_foot_main{width: 1200px;min-width: 1200px;margin: 0 auto;position: relative;height: 130px;}
+.sp_foot_main p{height: 30px;line-height: 30px;text-align:left;}
+.sp_foot_main p span{margin-right: 60px;margin-left:376px;}
+.sp_foot_a{height: 30px;}
+
+
+/*课程特色2*/
+.sp_fea_wrap{width: 100%;background: #fff;}
+.sp_fea_main{width: 1200px;min-width: 1200px;margin: 0 auto;margin-bottom: 40px;}
+.sp_feae_title{margin-bottom: 35px;}
+.sp_feae_con{position: relative;height: 160px;}
+.sp_fea_list{width: 250px;height: 160px;border-radius: 3px;text-align: center;position: relative;color: #fff;}
+.sp_fea_list h3{font-size: 20px;width: 250px;height: 35px;}
+.sp_fea_list p{line-height:25px;width: 200px;height: 90px;position: absolute;left: 23px;bottom: 5px;font-size: 16px;}
+.sp_fea_list_img{width: 50px;height: 50px;position: absolute;left: 100px;top: -25px;border-radius: 50%;}
+.sp_fea_list_img img{width: 50px;height: 50px;}
+.sp_fea_list1{position: absolute;left: 25px;top: 0;background: #78C6C6;}
+.sp_fea_list2{position: absolute;left: 325px;top: 0;background: #f08f88;}
+.sp_fea_list3{position: absolute;left: 625px;top: 0;background: #ad7cc2;}
+.sp_fea_list4{position: absolute;left: 925px;top: 0;background: #b49c60;}
+/*学生代表*/
+.sp_student_wrap{width: 100%;background:url(../images/special_tab_02.png) center no-repeat;}
+.sp_student_main{width: 1200px;min-width: 1200px;margin: 0 auto}
+.sp_student_con{width: 1200px;height: 450px;margin-bottom: 85px;}
+.sp_student_list_box{position: relative;}
+.sp_student_list_outBox{width: 1110px;height: 450px;margin: 0 auto;overflow:hidden;}
+.sp_student_list{width: 390px;height: 410px;position: absolute;background: #439b66;color: #fff;border-radius: 3px;}
+.sp_student_list_l{left:0;top: 40px; }
+.sp_student_list_c{left:370px;top: 0px;background: #63be87;z-index: 10;}
+.sp_student_list_r{left:740px;top: 40px;}
+.sp_student_top40{top:40px;}
+.sp_student_list_img{width: 130px;height: 130px;border-radius: 50%;overflow: hidden;position: absolute;left: 130px;top: 25px;}
+.sp_student_list p{width: 310px;height: 160px;position: absolute;left: 40px;bottom: 30px;line-height: 25px;overflow: hidden;}
+.sp_student_list h3{font-size: 20px;width: 390px;height: 35px;position: absolute;left: 0;top: 180px;text-align: center;}
+.sp_student_main2{height: 90px;}
+/*学校对比*/
+.sp_contrast_wrap{width: 100%;background: #fff;}
+.sp_contrast_main{width: 1200px;min-width: 1200px;margin: 0 auto;margin-bottom: 60px;}
+.sp_contrast_title{width: 1200px;height: 150px;text-align: center;line-height: 150px;font-size: 40px;}
+.sp_contrast_con{font-size: 24px;}
+.sp_contrast_list{width: 1200px;height: 60px;background:#18743d;color:#fff;line-height: 60px;border-bottom:2px solid #fff; }
+.sp_contrast_list_num{width: 125px;height: 60px;text-align: center;}
+.sp_contrast_list_sort{width: 170px;height: 60px;}
+.sp_contrast_list_name1{width: 340px;height: 60px;}
+.sp_contrast_list_name2{width: 400px;height: 60px;}
+.sp_contrast_list_country{width: 120px;height: 60px;text-align: center;}
+.sp_contrast_list_border0{border-bottom: 0;}
+.sp_contrast_list1{background: #dbefe3;color: #333;}
+.sp_contrast_list2{background: #e8e7e7;color: #6b6b6b;}
+.sp_contrast_list3{background: #f5f5f5;color: #6b6b6b;}
+.sp_contrast_list4{background: #dbefe3;color: #333;}
+.sp_contrast_list_title{width: 1200px;height: 150px;position: relative;background:url(../images/special_tab_05.png) center no-repeat;}
+.sp_contrast_list_title h3{width: 1200px;height: 50px;position: absolute;left: 0;top: 25px; font-family:Arial,"宋体";color: #fa4d01;font-size: 40px;font-weight: bold;text-align: center;}
+.sp_contrast_list_title p{width: 1198px;height: 35px;position: absolute;left: 2px;bottom: 20px;text-align: center;}
+.sp_contrast_list_title_l{width: 465px;height: 35px;position: absolute;left: 1px;top: 30px;background: #ccc;}
+.sp_contrast_list_title_r{width: 465px;height: 35px;position: absolute;right: 2px;top: 30px;background: #ccc;}
+.sp_ad_033{width: 100%;height: 198px;background:url(../images/sp_ad_033.png) center no-repeat;margin-bottom:20px;}
+
+
+/*add*/
+/*head*/
+.head_logo_consult{font-size:14px;color:#999;line-height:25px;text-align:center;}
+.head_school_sign{margin-top:-15px;margin-left:30px;}
+.head_school_sign li{float:left;width:95px;text-align:center;margin-left:30px;}
+.head_school_sign p{color:#333;font-size:14px;}
+/*banner*/
+.banner_getTest_bg{z-index:11;height:65px;width:780px;background-color:#fff;opacity:0.4;position:absolute;bottom:25px;left:50%;margin-left:-390px;}
+.banner_getTest_bg1{z-index:11;position:absolute;bottom:25px;left:50%;margin-left:-373px;margin-bottom:17px;}
+.banner_getTest_main{height:30px;background-color:#fff;color:#999;font-size:14px;line-height:30px;text-indent:10px;margin-right:18px;border-radius:4px;border:1px solid #dddddd;}
+.banner_input_text{width:155px;}
+.banner_input_select{width:115px;text-indent:0;}
+.banner_input_sub{cursor:pointer;width:115px;background-color:#18743d;color:#fff;border:none;text-indent:0;}
+/*教学环境*/
+.sp_envi_titleBg{position:absolute;bottom:0;left:0;width:100%;height:30px;background:rgba(0,0,0,0.5);color:#fff;text-align:center;line-height:30px;font-size:16px;}
+.sp_test_con1_main{margin-top:32px;margin-left:50px;}
+.sp_test_con1_main_span{color:#18743d;margin-right:10px;}
+/*footer*/
+.sp_foot_main p.copyRight{text-align:center;}
+.sp_foot_main p .sp_foot_margin1{margin-right:95px;}
+/*paln tab*/
+.sp_plan_one{display:block;}
+.sp_plan_three{display:none;}
+.sp_study_list_second{margin-bottom: 180px;}
+/**/
+.sp_fea_con{position:relative;display:inline-block;width:100%;height:160px;}
+.sp_study_list{overflow:hidden;}
+
+/*回到顶部*/
+.sp_toTop{display:none;position:fixed;bottom:100px;right:50px;width:70px;height:60px;background:rgba(0,0,0,0.7);color:#fff;text-align:center;cursor:pointer;line-height:25px;padding-top:10px;border-radius:6px;box-shadow:0 0 3px #aaa;}
+
+#wrapper {
+	width:1000px;
+	margin:auto;
+	position:relative;
+}
+.lanrenzhijia_li {
+	position:absolute;
+	cursor:pointer;
+	vertical-align:bottom;
+	display:block;
+}
+.show_images_1 {
+	z-index:15;
+	top:1px;
+	left:200px;
+}
+.show_images_1 img {
+	width:599px;
+	height:353px;
+}
+.show_images_2 {
+	z-index:10;
+	top:20px;
+	left:0px;
+}
+.show_images_2 img {
+	width:527px;
+	height:310px;
+}
+.show_images_3 {
+	z-index:5;
+	top:20px;
+	left:459px;
+}
+.show_images_3 img {
+	width:527px;
+	height:310px;
+}
+.show_images_4 {
+	z-index:0;
+	top:20px;
+	left:200px;
+}
+.show_images_4 img {
+	width:527px;
+	height:310px;
+}
+#belt {
+	display:block;
+	height:122px;
+	left:200px;
+	line-height:99em;
+	overflow:hidden;
+	position:absolute;
+	top:1px;
+	width:149px;
+	z-index:100;
+}
+.btn {
+	width:101px;
+	height:25px;
+	margin:auto;
+	position:relative;
+	padding-top:350px;
+	z-index:999;
+}
+.btn a {
+	width:17px;
+	height:15px;
+	overflow:none;
+	display:block;
+	background:url(../images/btn.jpg) no-repeat;
+	cursor:pointer;
+	float:left;
+}
+.btn a.active {
+	background-position:-17px 0;
+}
+
